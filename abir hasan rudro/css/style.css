@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Plus+Jakarta+Sans:wght@600&family=Poppins:wght@800&family=Roboto:ital,wght@0,700;1,500&display=swap');
+/*===============
+root css starts
+================*/
+
+:root {
+    --f1: 'Plus Jakarta Sans', sans-serif;
+    --f2: 'Poppins', sans-serif;
+    --f3: 'Roboto', sans-serif;
+    --f4: 'Open Sans', sans-serif;
+    --brand: #B20D5D;
+    --brand2: #490AB5;
+}
+
+/*===============
+root css ends
+================*/
+
+/*===============
+basic css starts
+================*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+/*===============
+basic css ends
+================*/
+
+/*===============
+font font family css starts
+================*/
+.pj-semi{
+    font-family: var(--f1);
+    font-weight: 600;
+}
+
+.po-eb{
+    font-family: var(--f2);
+    font-weight: 800;
+}
+
+.ro-med{
+    font-family: var(--f3);
+    font-weight: 500;
+}
+
+.ro-bold{
+    font-family: var(--f3);
+    font-weight: 700;
+}
+
+.os-reg{
+    font-family: var(--f4);
+    font-weight: 400;
+}
+
+.os-semi{
+    font-family: var(--f4);
+    font-weight: 600;
+}
+
+.os-eb{
+    font-family: var(--f4);
+    font-weight: 800;
+}
+/*===============
+font family css ends
+================*/
+
+/*===============
+font size css starts
+================*/
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-24{
+    font-size: 24px;
+}
+
+.fs-60{
+    font-size: 60px;
+}
+
+.fs-180{
+    font-size: 180px;
+}
+
+/*===============
+font size css ends
+================*/
+
+/*===============
+sizing css starts
+================*/
+
+.mt-230{
+    margin-top: 230px;
+}
+
+.mt-200{
+    margin-top: 200px;
+}
+
+.pb-230{
+    padding-bottom: 230px;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.mt-25{
+    margin-top: 25px;
+}
+
+/*===============
+sizing css ends
+================*/
+
+#sportlight{
+    background: #0C0614 !important;
+}
+
+.lg{
+    background: linear-gradient(to right,var(--brand),var(--brand2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.ga {
+	top: 553px;
+	left: 371px;
+}
+
+.im {
+	top: 661px;
+	left: 372px;
+}
+
+.spb {
+	top: 769px;
+	left: 410px;
+}
+
+.icon{
+    transform: rotate(30deg);
+}
+
+.last{
+    top: 50%;
+    left: 47%;
+}
